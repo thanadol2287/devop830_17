@@ -105,7 +105,6 @@ function App() {
                   </div>
 
                   <p className="desc">{hamster.desc}</p>
-
                   <button className="buy-btn">สั่งจอง</button>
                 </div>
               </div>

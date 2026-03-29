@@ -2,18 +2,11 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
+.page * {
+  box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: "Inter", system-ui, sans-serif;
-  background: linear-gradient(180deg, #fff8f1 0%, #fffdf8 100%);
-  color: #3a2d20;
-}
-
-a {
+.page a {
   text-decoration: none;
   color: inherit;
 }
@@ -22,6 +15,8 @@ a {
   min-height: 100vh;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(180deg, #fff8f1 0%, #fffdf8 100%);
+  color: #3a2d20;
 }
 
 .bg {
